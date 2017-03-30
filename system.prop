@@ -168,6 +168,9 @@ persist.radio.hw_mbn_update=0
 service.qti.ims.enabled=1
 telephony.lteOnCdmaDevice=1
 
+# Media
+persist.media.treble_omx=false
+
 # Time Services
 persist.timed.enable=true
 
