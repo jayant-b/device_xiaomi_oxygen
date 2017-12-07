@@ -249,6 +249,11 @@ PRODUCT_PACKAGES += \
     libOmxVenc \
     libstagefrighthw
 
+# HIDL
+PRODUCT_PACKAGES += \
+    android.hidl.base@1.0 \
+    android.hidl.manager@1.0
+
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power@1.0-impl \ 
