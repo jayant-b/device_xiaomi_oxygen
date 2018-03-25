@@ -29,9 +29,11 @@
 #include <stdlib.h>
 #include <sys/sysinfo.h>
 
+#include <android-base/properties.h>
+#include <android-base/logging.h>
+
 #include "vendor_init.h"
 #include "property_service.h"
-#include "log.h"
 #include "util.h"
 
 char const *heapstartsize;
@@ -40,6 +42,8 @@ char const *heapsize;
 char const *heapminfree;
 char const *heapmaxfree;
 char const *large_cache_height;
+
+using android::init::property_set;
 
 static void init_alarm_boot_properties()
 {
