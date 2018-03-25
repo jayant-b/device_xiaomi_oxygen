@@ -135,6 +135,10 @@ PRODUCT_PACKAGES += \
     ethertypes \
     libebtc
 
+# DRM
+PRODUCT_PACKAGES += \
+    android.hardware.drm@1.0-impl
+
 # Fingerprint
 PRODUCT_PACKAGES += \
     fingerprintd \
