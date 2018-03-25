@@ -586,7 +586,6 @@ service ril-daemon2 /vendor/bin/hw/rild -c 2
 service charger /charger
     class charger
     group system graphics
-    seclabel u:r:healthd:s0
     writepid /dev/cpuset/system-background/tasks
 
 service qbcharger /charger -m 1
