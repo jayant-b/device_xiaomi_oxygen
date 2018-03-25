@@ -219,6 +219,11 @@ PRODUCT_PACKAGES += \
     android.hardware.light@2.0-impl \
     lights.msm8953
 
+# Net
+PRODUCT_PACKAGES += \
+    android.system.net.netd@1.0 \
+    netutils-wrapper-1.0
+
 # Media 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/media_codecs.xml:system/etc/media_codecs.xml \
