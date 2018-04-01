@@ -245,11 +245,8 @@ vendor/lib/egl/libGLESv1_CM_adreno.so
 vendor/lib/egl/libGLESv2_adreno.so
 vendor/lib/egl/libQTapGLES.so
 vendor/lib/egl/libq3dtools_adreno.so
-<<<<<<< HEAD
 vendor/lib/egl/libq3dtools_esx.so
 vendor/lib/hw/vulkan.msm8953.so
-=======
->>>>>>> 0a8ae1a... mido: upda sdm proprietary files list
 vendor/lib/libC2D2.so
 vendor/lib/libCB.so
 vendor/lib/libOpenCL.so
@@ -267,21 +264,15 @@ vendor/lib/libmm-qdcm.so
 vendor/lib/libmmQSM.so
 vendor/lib/librs_adreno.so
 vendor/lib/librs_adreno_sha1.so
-<<<<<<< HEAD
 vendor/lib/libscale.so
-=======
->>>>>>> 0a8ae1a... mido: upda sdm proprietary files list
 vendor/lib64/egl/eglSubDriverAndroid.so
 vendor/lib64/egl/libEGL_adreno.so
 vendor/lib64/egl/libGLESv1_CM_adreno.so
 vendor/lib64/egl/libGLESv2_adreno.so
 vendor/lib64/egl/libQTapGLES.so
 vendor/lib64/egl/libq3dtools_adreno.so
-<<<<<<< HEAD
 vendor/lib64/egl/libq3dtools_esx.so
 vendor/lib64/hw/vulkan.msm8953.so
-=======
->>>>>>> 0a8ae1a... mido: upda sdm proprietary files list
 vendor/lib64/libC2D2.so
 vendor/lib64/libCB.so
 vendor/lib64/libOpenCL.so
@@ -300,38 +291,10 @@ vendor/lib64/libmm-qdcm.so
 vendor/lib64/libmmQSM.so
 vendor/lib64/librs_adreno.so
 vendor/lib64/librs_adreno_sha1.so
-<<<<<<< HEAD
 vendor/lib64/libscale.so
 
 # Graphic blur - from op3
 vendor/lib64/libuiblur.so|4b3fabf5ded7c4af531abde681676fc5e9248494
-=======
-vendor/lib64/libuiblur.so|4b3fabf5ded7c4af531abde681676fc5e9248494
-
-# Graphics (HDR)
-vendor/lib/libhdr_tm.so
-vendor/lib64/libhdr_tm.so
-
-# Graphics (SDM)
-lib64/libsdm-disp-apis.so:vendor/lib64/libsdm-disp-apis.so
-lib/libsdm-disp-apis.so:vendor/lib/libsdm-disp-apis.so
-vendor/lib64/libscalar.so
-vendor/lib64/libsdm-color.so
-vendor/lib64/libsdm-diag.so
--vendor/lib64/libsdm-disp-vndapis.so
-vendor/lib64/libsdmextension.so
-vendor/lib64/libtinyxml2_1.so
-vendor/lib/libscalar.so
-vendor/lib/libsdm-color.so
-vendor/lib/libsdm-diag.so
--vendor/lib/libsdm-disp-vndapis.so
-vendor/lib/libsdmextension.so
-vendor/lib/libtinyxml2_1.so
-
-# Graphics vulkan
-vendor/lib/hw/vulkan.msm8953.so
-vendor/lib64/hw/vulkan.msm8953.so
->>>>>>> 0a8ae1a... mido: upda sdm proprietary files list
 
 # Graphics firmware
 etc/firmware/a506_zap.b00
