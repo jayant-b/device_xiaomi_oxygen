@@ -26,8 +26,6 @@
             <instance>default</instance>
         </interface>
     </hal>
-<<<<<<< HEAD
-=======
     <hal format="hidl">
         <name>vendor.qti.hardware.perf</name>
         <transport>hwbinder</transport>
@@ -152,5 +150,5 @@
             <instance>default</instance>
         </interface>
     </hal>
->>>>>>> 0a8ae1a... mido: upda sdm proprietary files list
+
 </manifest>
