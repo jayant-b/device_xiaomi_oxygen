@@ -1,7 +1,7 @@
 [
  {
    "remote" : "jayant-b",
-   "repository": "jayant-b/device_xiaomi_oxygen_dot",
+   "repository": "jayant-b/device_xiaomi_oxygen",
    "target_path": "device/xiaomi/oxygen"
    "revision" : "8.1.x"
  },
