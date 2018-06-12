@@ -21,6 +21,10 @@ DEVICE_PATH := device/xiaomi/oxygen
 # Kernel
 TARGET_KERNEL_CONFIG := hardrock_oxygen_defconfig
 
++# Lineage Hardware
++BOARD_HARDWARE_CLASS += \
++   $(DEVICE_PATH)/lineagehw
+
 # Lights
 TARGET_PROVIDES_LIBLIGHT := true
 
