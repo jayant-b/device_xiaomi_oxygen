@@ -1,0 +1,26 @@
+[
+ {
+   "remote" : "jayant-b",
+   "repository": "jayant-b/device_xiaomi_oxygen_dot",
+   "target_path": "device/xiaomi/oxygen"
+   "revision" : "8.1.x"
+ },
+ {
+   "remote" : "jayant-b",
+   "repository" : "jayant-b/device_xiaomi_msm8953-common",
+   "target_path" : "device/xiaomi/msm8953",
+   "revision" : "dot-o"
+ },
+ {
+   "remote" : "jayant-b",
+   "repository": "/jayant-b/kernel_xiaomi_msm8953",
+   "target_path": "kernel/xiaomi/msm8953"
+   "revision" : "dot-o"
+ },
+ {
+   "remote" : "jayant-b",
+   "repository": "jayant-b/vendor_xiaomi_oxygen",
+   "target_path": "vendor/xiaomi/oxygen"
+   "revision" : "dot-o"
+ }
+]
