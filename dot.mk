@@ -17,7 +17,7 @@
 $(call inherit-product, device/xiaomi/oxygen/full_oxygen.mk)
 
 # Inherit some common dotOS stuff.
-$(call inherit-product, vendor/dot/common.mk)
+$(call inherit-product, vendor/dot/config/common.mk)
 
 PRODUCT_NAME := dot_oxygen
 BOARD_VENDOR := Xiaomi
